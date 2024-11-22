@@ -97,7 +97,30 @@ func main() {
 	incrementPointer(&p)
 	fmt.Println("after pointer", p)
 
+	//array
 
+	var names [5] string
+	names[0] = "Andri"
+	names[1] = "Tri"
+	names[2] = "Siti"
+	names[3] = "Budi"
+	names[4] = "Maryam"
+
+	var addresses = [3] string{
+		"jakarta","Bandung","Semarang",
+	}
+
+	fmt.Println(names[2])
+	fmt.Println(addresses[1])
+
+	//slice -> bisa memisahkan nilai dalam array atau menambah array
+	values := [...]int{10,20,30,40,50,60,70,80}
+	slice := values[3:5]
+	fmt.Println(slice)
+	fmt.Println(slice[0])
+
+	slice = append(slice, 90, 100)
+	fmt.Println(slice)
 }
 
 func increment  (x int){
