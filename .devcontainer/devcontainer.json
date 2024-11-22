@@ -26,9 +26,8 @@
                 "ms-vscode.makefile-tools",
                 "eamodio.gitlens",
                 "redhat.vscode-yaml",
-                "yzhang.markdown-all-in-one"
+                "yzhang.markdown-all-in-one",
                 "GitHub.vscode-pull-request-github"
-                
             ]
         }
     }
