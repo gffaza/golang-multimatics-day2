@@ -1,0 +1,5 @@
+pembuatan docker file yang wajib ada
+- devcontainer
+- env
+- docker compose
+- docker file
