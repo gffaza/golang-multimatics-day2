@@ -121,6 +121,22 @@ func main() {
 
 	slice = append(slice, 90, 100)
 	fmt.Println(slice)
+
+	//map
+	customer := map[string]string{
+		"name": "John",
+		"address": "Jakarta",
+	} 
+
+	fmt.Println(customer)
+	fmt.Println(customer["name"])
+	fmt.Println(customer["address"])
+	fmt.Println(len(customer))
+	customer["address"] = "Medan"
+	fmt.Println(customer)
+	delete(customer, "address")
+	fmt.Println(customer)
+	
 }
 
 func increment  (x int){
